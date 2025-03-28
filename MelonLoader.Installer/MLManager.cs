@@ -94,9 +94,9 @@ internal static class MLManager
             var version = new MLVersion
             {
                 Version = runVersion,
-                DownloadUrlWin = $"https://nightly.link/LavaGang/MelonLoader/actions/runs/{run["id"]}/MelonLoader.Windows.x64.CI.Release.zip",
-                DownloadUrlWinX86 = $"https://nightly.link/LavaGang/MelonLoader/actions/runs/{run["id"]}/MelonLoader.Windows.x86.CI.Release.zip",
-                DownloadUrlLinux = $"https://nightly.link/LavaGang/MelonLoader/actions/runs/{run["id"]}/MelonLoader.Linux.x64.CI.Release.zip"
+                DownloadUrlWin = $"https://nightly.link/Aeryle/MelonLoader/actions/runs/{run["id"]}/MelonLoader.Windows.x64.CI.Release.zip",
+                DownloadUrlWinX86 = $"https://nightly.link/Aeryle/MelonLoader/actions/runs/{run["id"]}/MelonLoader.Windows.x86.CI.Release.zip",
+                DownloadUrlLinux = $"https://nightly.link/Aeryle/MelonLoader/actions/runs/{run["id"]}/MelonLoader.Linux.x64.CI.Release.zip"
             };
 
             if (version.DownloadUrlWin == null && version.DownloadUrlWinX86 == null && version.DownloadUrlLinux == null)

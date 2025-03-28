@@ -6,9 +6,9 @@ internal static class Config
     public static Uri Discord { get; private set; } = new("https://discord.gg/2Wn3N2P");
     public static Uri Github { get; private set; } = new("https://github.com/LavaGang");
     public static Uri Twitter { get; private set; } = new("https://x.com/lava_gang");
-    public static string MelonLoaderReleasesApi { get; private set; } = "https://api.github.com/repos/LavaGang/MelonLoader/releases";
-    public static string MelonLoaderBuildWorkflowApi { get; private set; } = "https://api.github.com/repos/LavaGang/MelonLoader/actions/workflows/5411546/runs?branch=alpha-development&event=push&status=success&per_page=5";
-    public static string InstallerLatestReleaseApi { get; private set; } = "https://api.github.com/repos/LavaGang/MelonLoader.Installer/releases/latest";
+    public static string MelonLoaderReleasesApi { get; private set; } = "https://api.github.com/repos/Aeryle/MelonLoader/releases";
+    public static string MelonLoaderBuildWorkflowApi { get; private set; } = "https://api.github.com/repos/Aeryle/MelonLoader/actions/workflows/151957496/runs?event=push&status=success&per_page=5";
+    public static string InstallerLatestReleaseApi { get; private set; } = "https://api.github.com/repos/Aeryle/MelonLoader.Installer/releases/latest";
     public static string CacheDir { get; private set; } = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MelonLoader Installer");
     public static string LocalZipCache { get; private set; } = Path.Combine(CacheDir, "Local Build");
     public static string GameListPath { get; private set; } = Path.Combine(CacheDir, "games.txt");
